@@ -544,6 +544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6691889077521568939}
   - component: {fileID: 535849261302587345}
+  - component: {fileID: -4946803181730238831}
   m_Layer: 0
   m_Name: Empty Room
   m_TagString: Untagged
@@ -593,6 +594,20 @@ MonoBehaviour:
   - {fileID: 3456811126968146977}
   - {fileID: 5431828459075564463}
   direction: 0
+--- !u!114 &-4946803181730238831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870816653159022210}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e20e4c9f8d3ff2a4aa33d6fd68d9b29d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomRoom
+  FurnitureSpawnPoints: []
+  PropsToSpawn: []
 --- !u!1 &1879907470274603754
 GameObject:
   m_ObjectHideFlags: 0
