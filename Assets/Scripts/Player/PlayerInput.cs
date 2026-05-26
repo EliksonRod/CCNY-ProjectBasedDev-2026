@@ -25,6 +25,7 @@ public class PlayerInput : MonoBehaviour
             return;
         }
         Instance = this;
+        SetCursorState(cursorLocked);
     }
 
     public void OnMove(InputValue value)
